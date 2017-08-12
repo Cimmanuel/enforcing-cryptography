@@ -1,0 +1,2 @@
+# enforcing-cryptography
+This contains three functions - encryptData(), keyGenerator(), and decryptData() - that encrypts, gets encryption keys and decrypts any four digit integer supplied by the user. Know that if the encryption function returns a  three-digit integer, to decrypt it you have to add a zero at the beginning of the digits to make a four-digit integer. Also know that if you're getting just a single digit after decryption, then you can add three zeros at the beginning to make a four-digit decrypted integer.
